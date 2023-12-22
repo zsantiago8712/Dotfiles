@@ -1,0 +1,18 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- clean: ['~/.bashrc', '~/.bash_profile', '~/.inputrc']
+
+- link:
+    ~/.zshrc: shell/zshrc
+    ~/.aliases.sh: shell/aliases.sh
+    ~/.exports.sh: shell/exports.sh
+    ~/.functions.sh: shell/functions.sh
+    ~/.init.sh: shell/init.sh
+
+- shell:
+  # Agrega aquí comandos de shell que desees ejecutar después de establecer los enlaces
+  - [echo "Dotfiles configurados con Dotbot."]
+
