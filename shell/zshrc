@@ -1,13 +1,19 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Cargar archivos de configuración adicionales
 #
 
 DOTFILES_PATH=~/dotfiles
 SHELL_FILES=$DOTFILES_PATH/shell
 
+source $SHELL_FILES/exports.sh
+source $ZSH/oh-my-zsh.sh
 source $SHELL_FILES/aliases.sh
 source $SHELL_FILES/functions.sh
 source $SHELL_FILES/init.sh
-source $SHELL_FILES/exports.sh
+source $SHELL_FILES/plugins.sh
+source $SHELL_FILES/themes.sh
 
 
 # Configuraciones adicionales de Zsh pueden ir aquí

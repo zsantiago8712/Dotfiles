@@ -11,8 +11,14 @@
     ~/.exports.sh: shell/exports.sh
     ~/.functions.sh: shell/functions.sh
     ~/.init.sh: shell/init.sh
+    ~/.plugins.sh: shell/plugins.sh
+    ~/.themes.sh: shell/themes.sh
+    ~/.config/alacritty/alacritty.toml: terminals/alacritty/alacritty.toml
+    ~/Library/Application Support/Code/User/settings.json: editors/vscode/settings.json
+    ~/Library/Application Support/Code/User/keybindings.json: editors/vscode/keybindings.json
+    ~/.config/starship.toml: shell/starship.toml
+
 
 - shell:
   # Agrega aquí comandos de shell que desees ejecutar después de establecer los enlaces
   - [echo "Dotfiles configurados con Dotbot."]
-

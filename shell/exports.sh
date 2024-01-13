@@ -1,10 +1,9 @@
-# ------------------------------------------------------------------------------
-# Codely theme config
-# ------------------------------------------------------------------------------
-export CODELY_THEME_MINIMAL=false
-export CODELY_THEME_MODE="dark"
-export CODELY_THEME_PROMPT_IN_NEW_LINE=false
-export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
+# User configuration
+
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+export STARSHIP_CONFIG=~/.config/starship.toml
+
 
 # ------------------------------------------------------------------------------
 # Languages
@@ -12,15 +11,12 @@ export CODELY_THEME_PWD_MODE="short" # full, short, home_relative
 export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/.go"
+#export NODE_PATH=$NODE_PATH:`npm root -g`
 
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
-if [ "$CODELY_THEME_MODE" = "dark" ]; then
-	fzf_colors="pointer:#ebdbb2,bg+:#3c3836,fg:#ebdbb2,fg+:#fbf1c7,hl:#8ec07c,info:#928374,header:#fb4934"
-else
-	fzf_colors="pointer:#db0f35,bg+:#d6d6d6,fg:#808080,fg+:#363636,hl:#8ec07c,info:#928374,header:#fffee3"
-fi
+
 
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
@@ -35,15 +31,8 @@ export NVM_DIR="$HOME/.nvm"
 # ------------------------------------------------------------------------------
 path=(
 	"$HOME/bin"
-	"$DOTLY_PATH/bin"
-	"$DOTFILES_PATH/bin"
-	"$JAVA_HOME/bin"
-	"$GEM_HOME/bin"
-	"$GOPATH/bin"
-	"$HOME/.cargo/bin"
-	"/usr/local/opt/ruby/bin"
-	"/usr/local/opt/python/libexec/bin"
 	"/opt/homebrew/bin"
+	"$DOTFILES_PATH/bin"
 	"/usr/local/bin"
 	"/usr/local/sbin"
 	"/bin"
@@ -51,6 +40,12 @@ path=(
 	"/usr/sbin"
 	"/sbin"
 	"$path"
+	"$HOME/.cargo/bin"
+	"$JAVA_HOME/bin"
+	"$GEM_HOME/bin"
+	"$GOPATH/bin"
+	"/usr/local/opt/ruby/bin"
+	"/usr/local/opt/python/libexec/bin"
 )
 
 export path

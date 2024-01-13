@@ -1,0 +1,31 @@
+{
+  "editor.fontSize": 13,
+  "editor.formatOnSave": true,
+  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Hack Nerd Font Mono",
+  "files.autoSave": "onFocusChange",
+  "editor.suggestSelection": "first",
+  "editor.rules": [100],
+  "editor.tabSize": 4,
+  "editor.wordWrap": "off",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "search.useIgnoreFiles": true,
+  "search.useGlobalIgnoreFiles": true,
+  "files.eol": "\n",
+  "focus.opacity": "0.7",
+  "focues.highlightRange": "block",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "[c]": {
+    "editor.defaultFormatter": "demiaochen.clang-format-indent-4"
+  },
+  "terminal.integrated.inheritEnv": false,
+  "git.autofetch": true,
+  "githubPullRequests.pullBranch": "never",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "focus.highlightLines": 20,
+  "git.confirmSync": false,
+  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.settings.openDefaultKeybindings": true
+}

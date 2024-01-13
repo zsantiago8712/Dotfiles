@@ -1,5 +1,6 @@
 # This is a useful file to have the same aliases/functions in bash and zsh
 
+eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
 
