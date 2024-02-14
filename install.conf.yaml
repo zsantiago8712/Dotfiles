@@ -3,22 +3,24 @@
       relink: true
       create: true
 
-- clean: ['~/.bashrc', '~/.bash_profile', '~/.inputrc']
+- clean: ["~/.bashrc", "~/.bash_profile", "~/.inputrc"]
 
 - link:
-    ~/.zshrc: shell/zshrc
-    ~/.aliases.sh: shell/aliases.sh
-    ~/.exports.sh: shell/exports.sh
-    ~/.functions.sh: shell/functions.sh
-    ~/.init.sh: shell/init.sh
-    ~/.plugins.sh: shell/plugins.sh
-    ~/.themes.sh: shell/themes.sh
+    ~/.zshrc: shell/zsh_shell/zshrc
+    ~/.aliases.sh: shell/zsh_shell/aliases.sh
+    ~/.exports.sh: shell/zsh_shell/exports.sh
+    ~/.functions.sh: shell/zsh_shell/functions.sh
+    ~/.init.sh: shell/zsh_shell/init.sh
+    ~/.plugins.sh: shell/zsh_shell/plugins.sh
+    ~/.themes.sh: shell/zsh_shell/themes.sh
     ~/.config/alacritty/alacritty.toml: terminals/alacritty/alacritty.toml
     ~/Library/Application Support/Code/User/settings.json: editors/vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: editors/vscode/keybindings.json
-    ~/.config/starship.toml: shell/starship.toml
-
+    ~/.config/starship.toml: shell/zsh_shell/starship.toml
+    ~/.clang-format: languages/cpp/.clang-format
+    ~/.config/nvim/lua/user: editors/nvim
+    ~/.tmux.conf: tmux/tmux.conf
 
 - shell:
-  # Agrega aquí comandos de shell que desees ejecutar después de establecer los enlaces
-  - [echo "Dotfiles configurados con Dotbot."]
+    # Agrega aquí comandos de shell/zsh_shell que desees ejecutar después de establecer los enlaces
+    - [echo "Dotfiles configurados con Dotbot."]

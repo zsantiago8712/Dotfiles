@@ -44,4 +44,5 @@ alias o.='open .'
 alias up='dot package update_all'
 
 
+alias clang-format='clang-format --style=file:${CLANG_FORMAT_CONF}'
 

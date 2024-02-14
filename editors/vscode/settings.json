@@ -4,8 +4,9 @@
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Hack Nerd Font Mono",
   "files.autoSave": "onFocusChange",
   "editor.suggestSelection": "first",
-  "editor.rules": [100],
-  "editor.tabSize": 4,
+  "editor.rules": [
+    100
+  ],
   "editor.wordWrap": "off",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -16,7 +17,7 @@
   "focues.highlightRange": "block",
   "C_Cpp.intelliSenseEngine": "disabled",
   "[c]": {
-    "editor.defaultFormatter": "demiaochen.clang-format-indent-4"
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
   },
   "terminal.integrated.inheritEnv": false,
   "git.autofetch": true,
@@ -27,5 +28,8 @@
   "focus.highlightLines": 20,
   "git.confirmSync": false,
   "workbench.iconTheme": "eq-material-theme-icons-darker",
-  "workbench.settings.openDefaultKeybindings": true
+  "workbench.settings.openDefaultKeybindings": true,
+  "extensions.ignoreRecommendations": true,
+  "C_Cpp.default.cppStandard": "gnu++20",
+  "window.zoomLevel": -1
 }
