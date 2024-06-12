@@ -4,9 +4,7 @@
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Hack Nerd Font Mono",
   "files.autoSave": "onFocusChange",
   "editor.suggestSelection": "first",
-  "editor.rules": [
-    100
-  ],
+  "editor.rules": [100],
   "editor.wordWrap": "off",
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -31,5 +29,6 @@
   "workbench.settings.openDefaultKeybindings": true,
   "extensions.ignoreRecommendations": true,
   "C_Cpp.default.cppStandard": "gnu++20",
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "github.copilot.editor.enableAutoCompletions": true
 }
