@@ -4,7 +4,7 @@
 export OH_MY_ZSH=$HOME/.oh-my-zsh
 export STARSHIP_CONFIG=~/.config/starship.toml
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR="/opt/homebrew/share/zsh-syntax-highlighting/highlighters"
-
+export ZSH_CUSTOM=$OH_MY_ZSH/custom
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------

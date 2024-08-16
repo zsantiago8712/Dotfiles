@@ -11,8 +11,6 @@
     ~/.exports.sh: shell/zsh_shell/exports.sh
     ~/.functions.sh: shell/zsh_shell/functions.sh
     ~/.init.sh: shell/zsh_shell/init.sh
-    ~/.plugins.sh: shell/zsh_shell/plugins.sh
-    ~/.themes.sh: shell/zsh_shell/themes.sh
     ~/.config/alacritty/alacritty.toml: terminals/alacritty/alacritty.toml
     ~/Library/Application Support/Code/User/settings.json: editors/vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: editors/vscode/keybindings.json

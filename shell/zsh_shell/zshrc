@@ -10,13 +10,14 @@ SHELL_FILES=$DOTFILES_PATH/shell
 MY_ZSH_DIR=$SHELL_FILES/zsh_shell
 
 
-source $MY_ZSH_DIR/exports.sh
-source $OH_MY_ZSH/oh-my-zsh.sh
-source $MY_ZSH_DIR/aliases.sh
-source $MY_ZSH_DIR/functions.sh
+
+
 source $MY_ZSH_DIR/init.sh
-source $MY_ZSH_DIR/plugins.sh
-source $MY_ZSH_DIR/themes.sh
+
+
+eval "$(starship init zsh)"
+eval "$(zoxide init zsh)"
+eval "$(mise activate zsh)"
 
 
 # Configuraciones adicionales de Zsh pueden ir aquí

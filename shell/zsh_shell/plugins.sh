@@ -10,3 +10,5 @@ plugins=(
     nvm
     fast-syntax-highlighting
 )
+
+source "/opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
