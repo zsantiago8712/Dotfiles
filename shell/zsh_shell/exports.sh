@@ -1,8 +1,8 @@
 # User configuration
 
 # Path to your oh-my-zsh installation.
-export OH_MY_ZSH="$HOME/.oh-my-zsh"
-export STARSHIP_CONFIG="~/.config/starship.toml"
+export OH_MY_ZSH=$HOME/.oh-my-zsh
+export STARSHIP_CONFIG=~/.config/starship.toml
 export ZSH_HIGHLIGHT_HIGHLIGHTERS_DIR="/opt/homebrew/share/zsh-syntax-highlighting/highlighters"
 
 # ------------------------------------------------------------------------------
@@ -25,7 +25,7 @@ export CLANG_FORMAT_CONF="$HOME/dotfiles/languages/cpp/.clang-format"
 # ------------------------------------------------------------------------------
 
 
-export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
+# export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
 
 # export NVM_DIR="$HOME/.nvm"
 #   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm

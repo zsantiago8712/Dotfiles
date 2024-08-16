@@ -5,9 +5,8 @@ eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 
 
-source "$ZSH_CUSTOM/aliases.sh"
-source "$ZSH_CUSTOM/exports.sh"
-source "$ZSH_CUSTOM/functions.sh"
+source "$MY_ZSH_DIR/aliases.sh"
+source "$MY_ZSH_DIR/exports.sh"
+source "$MY_ZSH_DIR/functions.sh"
 source "/opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh"
-source "/opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
 

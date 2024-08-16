@@ -16,11 +16,13 @@
     ~/.config/alacritty/alacritty.toml: terminals/alacritty/alacritty.toml
     ~/Library/Application Support/Code/User/settings.json: editors/vscode/settings.json
     ~/Library/Application Support/Code/User/keybindings.json: editors/vscode/keybindings.json
-    ~/.config/starship.toml: shell/zsh_shell/starship.toml
+    ~/.config/starship.toml: starship/starship.toml
     ~/.clang-format: languages/cpp/.clang-format
     ~/.config/nvim/lua/user: editors/nvim
-    ~/.tmux.conf: tmux/tmux.conf
+    #TODO: arreglar tmux
+    # ~/.config/tmux.conf: tmux/tmux.conf
     ~/.config/kitty: terminals/kitty
+    ~/.oh-my-zsh/custom: shell/zsh_shell/custom
 - shell:
     # Agrega aquí comandos de shell/zsh_shell que desees ejecutar después de establecer los enlaces
     - [echo "Dotfiles configurados con Dotbot."]

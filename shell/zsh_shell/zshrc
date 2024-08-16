@@ -7,16 +7,16 @@
 DOTFILES_PATH=~/dotfiles
 SHELL_FILES=$DOTFILES_PATH/shell
 
-ZSH_CUSTOM=$SHELL_FILES/zsh_shell
+MY_ZSH_DIR=$SHELL_FILES/zsh_shell
 
 
-source $ZSH_CUSTOM/exports.sh
+source $MY_ZSH_DIR/exports.sh
 source $OH_MY_ZSH/oh-my-zsh.sh
-source $ZSH_CUSTOM/aliases.sh
-source $ZSH_CUSTOM/functions.sh
-source $ZSH_CUSTOM/init.sh
-source $ZSH_CUSTOM/plugins.sh
-source $ZSH_CUSTOM/themes.sh
+source $MY_ZSH_DIR/aliases.sh
+source $MY_ZSH_DIR/functions.sh
+source $MY_ZSH_DIR/init.sh
+source $MY_ZSH_DIR/plugins.sh
+source $MY_ZSH_DIR/themes.sh
 
 
 # Configuraciones adicionales de Zsh pueden ir aquí

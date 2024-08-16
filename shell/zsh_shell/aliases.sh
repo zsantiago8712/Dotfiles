@@ -1,6 +1,6 @@
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# users are encouraged to define aliases within the MY_ZSH_DIR folder.
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
@@ -45,4 +45,4 @@ alias up='dot package update_all'
 
 
 alias clang-format='clang-format --style=file:${CLANG_FORMAT_CONF}'
-
+alias conf='cd '
