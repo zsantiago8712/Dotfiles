@@ -20,7 +20,7 @@
     ~/.clang-format: languages/cpp/.clang-format
     ~/.config/nvim/lua/user: editors/nvim
     ~/.tmux.conf: tmux/tmux.conf
-
+    ~/.config/kitty: terminals/kitty
 - shell:
     # Agrega aquí comandos de shell/zsh_shell que desees ejecutar después de establecer los enlaces
     - [echo "Dotfiles configurados con Dotbot."]
