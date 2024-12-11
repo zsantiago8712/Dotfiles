@@ -45,4 +45,7 @@ alias up='dot package update_all'
 
 
 alias clang-format='clang-format --style=file:${CLANG_FORMAT_CONF}'
-alias conf='cd '
+alias conf='cd ~/.config'
+
+alias buu='brew update && brew cleanup'
+alias bu='brew upgrade && brew cleanup'

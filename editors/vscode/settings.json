@@ -25,10 +25,10 @@
   },
   "focus.highlightLines": 20,
   "git.confirmSync": false,
-  "workbench.iconTheme": "eq-material-theme-icons-darker",
   "workbench.settings.openDefaultKeybindings": true,
   "extensions.ignoreRecommendations": true,
   "C_Cpp.default.cppStandard": "gnu++20",
   "window.zoomLevel": -1,
-  "github.copilot.editor.enableAutoCompletions": true
+  "github.copilot.editor.enableAutoCompletions": true,
+  "go.toolsManagement.autoUpdate": true
 }

@@ -3,9 +3,9 @@
 
 # Cargar archivos de configuración adicionales
 #
-
-DOTFILES_PATH=~/dotfiles
-SHELL_FILES=$DOTFILES_PATH/shell
+export XDG_CONFIG_HOME=$HOME/.config
+DOTFILES_PATH=~/dotfiles/shell
+SHELL_FILES=$DOTFILES_PATH
 
 MY_ZSH_DIR=$SHELL_FILES/zsh_shell
 
@@ -19,9 +19,12 @@ eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 eval "$(mise activate zsh)"
 
+fastfetch
 
 # Configuraciones adicionales de Zsh pueden ir aquí
 # ...
 
 # Ejemplo de configuración adicional
 #export PATH="$HOME/bin:$PATH"
+
+
